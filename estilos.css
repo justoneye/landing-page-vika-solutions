@@ -30,6 +30,15 @@ p{
   align-content: center;
 }
 
+.inicio {
+	background: url('multimedia/fondo.jpg');
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+}
+
 .pagina-principal {
 	padding: 5% 10%;
 	position: relative;
@@ -73,7 +82,7 @@ p{
 }
 
 .main-footer {
-  background-color: var(--color2);
+  background-color: var(--color3);
   padding: 15px;
   font-size: 14px;
 }
