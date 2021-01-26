@@ -1,24 +1,24 @@
 @import url("variables.css"); 
 
 html{
-  background-color: var(--blanco);
+  background-color: var(--color5);
 	overflow-x: hidden;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
-  color: var(--gris);
+  color: var(--color2);
 }
 
 h1 {
   text-transform: uppercase;
-  color: var(--gris);
+  color: var(--color2);
   font-weight: 600;
   font-size: 50px;
 }
 
 p{
-  color: var(--gris-claro);
+  color: var(--color4);
 }
 
 .container-fluid {
@@ -37,7 +37,7 @@ p{
 }
 
 .pagina-principal p{
-  color: var(--gris-claro);
+  color: var(--color4);
   font-weight: bold;
 }
 
@@ -47,7 +47,7 @@ p{
 
 .navbar {
   margin-bottom: 0;
-  color: var(--amarillo);
+  color: var(--color1);
   z-index: 9999;
   border: 0;
   font-size: 16px;
@@ -60,12 +60,12 @@ p{
 }
 
 .navbar li a, .navbar .navbar-brand {
-  color: var(--amarillo);
+  color: var(--color1);
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-  color: var(--blanco);
-  background-color: var(--amarillo);
+  color: var(--color5);
+  background-color: var(--color1);
 }
 
 .navbar-default .navbar-toggle {
@@ -73,33 +73,33 @@ p{
 }
 
 .main-footer {
-  background-color: var(--gris);
+  background-color: var(--color2);
   padding: 15px;
   font-size: 14px;
 }
 
 .main-footer h2, h5, h6 {
-  color: var(--amarillo);
+  color: var(--color1);
 }
 
 .main-footer li a, p {
   font-weight: lighter;
-  color: var(--blanco);
+  color: var(--color5);
 }
 
 .footer-copyright{
-  background-color: var(--gris-claro);
-  color: var(--blanco);
+  background-color: var(--color4);
+  color: var(--color5);
   font-size: 14px;
   padding: 10px 0;
 }
 
 .footer-copyright p{
-  color: var(--blanco)
+  color: var(--color5)
 }
 
 .footer-copyright a{
-  color: var(--amarillo)
+  color: var(--color1)
 }
 
 
