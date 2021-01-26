@@ -105,11 +105,11 @@ p{
 }
 
 .color-seccion{
-  background-color: var(--color4);
+  background-color: var(--color3);
 }
 
 .button{
-  color: var(--color3);
+  background-color: var(--color3) !important;
 }
 
 .main-footer {
