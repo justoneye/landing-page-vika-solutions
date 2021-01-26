@@ -15,13 +15,13 @@ body {
 
 h1 {
   text-transform: uppercase;
-  color: var(--color2);
-  font-weight: 600;
+  color: var(--color1);
+  font-weight: 700;
   font-size: 50px;
 }
 
 p{
-  color: var(--color4);
+  color: var(--color5);
 }
 
 .navbar {
@@ -75,6 +75,13 @@ p{
   border-bottom: -2rem;
 }
 
+#Titulo{
+  text-transform: uppercase;
+  color: var(--color2);
+  font-weight: 600;
+  font-size: 100px;
+}
+
 .pagina-principal {
 	padding: 5% 10%;
 	position: relative;
@@ -120,10 +127,11 @@ p{
 
 .main-footer h2, h5, h6 {
   color: var(--color1);
+  font-weight: bold;
 }
 
 .main-footer li a, p {
-  font-weight: lighter;
+  font-weight: 350;
   color: var(--color5);
 }
 
