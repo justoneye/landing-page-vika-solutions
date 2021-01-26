@@ -33,7 +33,7 @@ _Opcional:_
 La carpeta contiene los siguientes archivos:
 
 ```
-prueba-maquetacion-tecactiva/
+landing-page-vika-solutions/
   index.html
   estilos.css
   variables.css
