@@ -2,30 +2,38 @@
 <html lang="es">
 
 <head>
+  <!-- Título -->
   <title>Edificio TerraNueva</title>
 
+  <!-- Configuración del viewport -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-  <link rel="icon" type="image/ico" href="multimedia/icon.ico" />
-
+  <!-- Hojas de Estilos -->
   <link rel="stylesheet" href="estilos.css">
 
+  <!-- Tipografía -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500;700&display=swap" rel="stylesheet">
+
+  <!-- Iconos -->
+  <link rel="icon" type="image/ico" href="multimedia/icon.ico" />
 </head>
 
 <body>
+  <!-- Navbar -->
   <navbar class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">
       <img src="multimedia/icon.svg" width="64" alt="Edificio TerraNueva Logo" title="Edificio TerraNueva">
     </a>
 
+    <!-- Ítems para Navbar -->
     <div class="collapse navbar-collapse" id="navbarMenu">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
@@ -58,10 +66,12 @@
     </div>
   </navbar>
 
+  <!-- Sección: Pantalla de Inicio -->
   <div class="jumbotron inicio">
     <h1 id="Titulo">Edificio TerraNueva</h1>
   </div>
 
+  <!-- Sección: Descripción del proyecto -->
   <div class="jumbotron pagina-principal color-seccion">
     <div class="row">
       <div class="col-sm-6">
@@ -76,6 +86,7 @@
     </div>
   </div>
 
+  <!-- Sección: Galería -->
   <div class="jumbotron pagina-principal">
     <h2>Galería</h2>
     <div id="carruselImagenes" class="carousel slide" data-ride="carousel">
@@ -85,6 +96,8 @@
         <li data-target="#carruselImagenes" data-slide-to="2"></li>
         <li data-target="#carruselImagenes" data-slide-to="3"></li>
       </ol>
+
+      <!-- Imágenes del Carrusel -->
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img class="d-block w-100" src="multimedia/imagenes-carrusel/carrusel1.jpg" alt="First slide">
@@ -99,6 +112,8 @@
           <img class="d-block w-100" src="multimedia/imagenes-carrusel/carrusel4.jpg" alt="Fourth slide">
         </div>
       </div>
+
+      <!-- Botones para Carrusel-->
       <a class="carousel-control-prev" href="#carruselImagenes" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Anterior</span>
@@ -110,6 +125,7 @@
     </div>
   </div>
 
+  <!-- Sección: Zonas Comunes -->
   <div class="jumbotron pagina-principal color-seccion">
     <h2>Zonas Comunales</h2>
     <p>Pensando en ti y tu familia construimos espacios modernos diseñados para el bienestar y felicidad de nuestros clientes.</p>
@@ -155,10 +171,13 @@
     </div>
   </div>
 
+  <!-- Sección: Ubicación -->
   <div class="jumbotron pagina-principal">
     <h2>Ubicación</h2>
     <div class="row">
       <div class="col-sm-6">
+
+        <!-- Sección: iFrame -->
         <div class="mapouter">
           <div class="gmap_canvas">
             <iframe width="100%" height="500" id="gmap_canvas"
@@ -167,25 +186,27 @@
           </div>
         </div>
       </div>
+
+      <!-- Sección: Descripción de Ubicación -->
       <div class="col-sm-6">
       <p>Nuestra edificación se encuentra estratégicamente ubicado en Bogotá, en un sector de alto desarrollo, junto a importantes vías como la Av. Calle 80, Avenida Boyacá, y la Avenida Carrera 68, perfecto para disfrutar de todas las ventajas de ubicación y movilidad para ti y para tu familia.</p>
-      <button type="button" class="btn1" data-toggle="modal" data-target="#modalCita">
+      <button type="button" class="btn1" data-toggle="modal" data-target="#modalCita" data-dismiss="modal" data-backdrop="false">
         Agenda una cita
       </button>
       </div>
     </div>
   </div>
 
-  <div class="modal fade" id="modalCita" tabindex="-1" role="dialog" aria-labelledby="modalCitaTitulo" aria-hidden="true">
+  <!-- Modal de Contacto -->
+  <div class="modal" id="modalCita" tabindex="-1" role="dialog" aria-labelledby="titulo" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="modalCitaTitulo">¡Contáctanos!</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
+          <h5 class="modal-title" id="titulo">¡Contáctanos!</h5>
         </div>
         <div class="modal-body">
+          
+          <!-- Formulario de Contacto -->
           <form>
             <div class="form-row">
               <div class="form-group col-md-6">
@@ -218,6 +239,8 @@
             </div>
           </form>
         </div>
+
+        <!-- Botones de Modal -->
         <div class="modal-footer">
           <button type="button" class="btn2" data-dismiss="modal">Cerrar</button>
           <button type="button" class="btn1">Agendar</button>
@@ -226,6 +249,7 @@
     </div>
   </div>
 
+  <!-- Sección: Footer -->
   <footer class="main-footer">
     <div class="container-fluid">
       <div class="row">
