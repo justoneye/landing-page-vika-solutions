@@ -60,13 +60,19 @@ p{
   align-content: center;
 }
 
+.jumbotron{
+  border-radius: 0;
+}
+
 .inicio {
 	background: url('multimedia/fondo.jpg');
   background-size: cover;
   height: 100%;
   width: 100%;
+  display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
+  border-bottom: -2rem;
 }
 
 .pagina-principal {
