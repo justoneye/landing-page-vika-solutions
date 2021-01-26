@@ -182,18 +182,18 @@
       </div>
       <div class="col-sm-6">
       <p>Nuestra edificación se encuentra estratégicamente ubicado en Bogotá, en un sector de alto desarrollo, junto a importantes vías como la Av. Calle 80, Avenida Boyacá, y la Avenida Carrera 68, perfecto para disfrutar de todas las ventajas de ubicación y movilidad para ti y para tu familia.</p>
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-        Launch demo modal
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalCita">
+        Agenda una cita telefónica
       </button>
       </div>
     </div>
   </div>
 
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id="modalCita" tabindex="-1" role="dialog" aria-labelledby="modalCitaTitulo" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Contáctanos!</h5>
+          <h5 class="modal-title" id="modalCitaTitulo">¡Contáctanos!</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -202,44 +202,38 @@
           <form>
             <div class="form-row">
               <div class="form-group col-md-6">
-                <label for="inputEmail4">Email</label>
-                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                <label for="inputNombre">Nombre Completo</label>
+                <input type="text" class="form-control" id="inputNombre" placeholder="Nombres y apellidos">
               </div>
               <div class="form-group col-md-6">
-                <label for="inputPassword4">Password</label>
-                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                <label for="inputEmail">Email</label>
+                <input type="email" class="form-control" id="inputEmail">
               </div>
-            </div>
-            <div class="form-group">
-              <label for="inputAddress">Address</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-            </div>
-            <div class="form-group">
-              <label for="inputAddress2">Address 2</label>
-              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
             </div>
             <div class="form-row">
               <div class="form-group col-md-6">
-                <label for="inputCity">City</label>
-                <input type="text" class="form-control" id="inputCity">
+                <label for="inputCelular">Celular</label>
+                <input type="text" class="form-control" id="inputCelular">
               </div>
               <div class="form-group col-md-4">
-                <label for="inputState">State</label>
-                <select id="inputState" class="form-control">
-                  <option selected>Choose...</option>
-                  <option>...</option>
+                <label for="inputHorario">Horario de Visita</label>
+                <select id="inputHorario" class="form-control">
+                  <option selected>Eliga un horario...</option>
+                  <option>9 AM - 11 AM</option>
+                  <option>1 PM - 3 PM</option>
+                  <option>4 PM - 6 PM</option>
                 </select>
               </div>
               <div class="form-group col-md-2">
-                <label for="inputZip">Zip</label>
-                <input type="text" class="form-control" id="inputZip">
+                <label for="inputFecha">Fecha de Visita</label>
+                <input type="text" class="form-control" id="inputFecha" placeholder="DD/MM/AAAA">
               </div>
             </div>
           </form>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Agendar</button>
         </div>
       </div>
     </div>
