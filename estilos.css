@@ -63,6 +63,21 @@ p {
   align-content: center;
 }
 
+.btn1{
+  background-color: var(--color4);
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border-radius: 15px;
+  border-color: transparent;
+}
+
+.btn2{
+  background-color: var(--color6);
+  padding: 10px 20px;
+  border-radius: 15px;
+  border-color: transparent;
+}
+
 .jumbotron{
   border-radius: 0;
 }
